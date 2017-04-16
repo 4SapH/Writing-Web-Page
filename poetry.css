@@ -1,0 +1,32 @@
+body {
+	background-color: rgb(142, 38, 17);;
+	background-image: url('../img/home-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.card {
+	border: 2px solid rgb(142, 38, 17);
+	background: rgb(142, 38, 17) url('../img/paper2.jpg') no-repeat fixed center;
+	margin: auto;
+    max-width: 60vw;
+    text-align: left;
+    overflow: auto;
+}
+
+.card:hover {
+	box-shadow: 8px 8px 8px rgb(79, 59, 55);
+}
+
+.card pre {
+	font-family: ELEGANT TYPEWRITER;
+	font-size: 200%;
+	color: rgb(142, 38, 17);
+	font-weight: 550;
+}
+
+.card #titlu {
+	font-size: 225%;
+	font-weight: bold;
+}

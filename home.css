@@ -1,0 +1,24 @@
+body {
+	background-color: rgb(142, 38, 17);;
+	background-image: url('../img/home-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* SPECIFIC */
+
+/* Scrollable card */
+.card {
+	border: 2px solid rgb(142, 38, 17);
+	background: rgb(142, 38, 17) url('../img/paper2.jpg') no-repeat fixed center;
+	margin: auto;
+    max-width: 60vw;
+    height: 70vh;
+    text-align: center;
+    overflow: auto;
+}
+
+.card:hover {
+	box-shadow: 8px 8px 8px rgb(79, 59, 55);
+}

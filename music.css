@@ -1,0 +1,7 @@
+body {
+	background-color: rgb(142, 38, 17);;
+	background-image: url('../img/home-bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}

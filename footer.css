@@ -1,0 +1,28 @@
+/*keep html at full page*/
+html {
+  position:relative; 
+  min-height: 100%;
+}
+
+/*Normalize html and body elements*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+	margin-bottom: 5vh;
+}
+
+footer {
+	background-color: rgb(142, 38, 17);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-width: 100%;
+	text-align: center;
+	color: white;
+	font-family: ELEGANT TYPEWRITER;
+	font-size: 125%;
+	border-top: 2px solid white;
+}
