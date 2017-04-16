@@ -2,31 +2,40 @@
 
 header {
 	top: 0;
+	left: 0;
+	right: 0;
 	margin: auto;
+	min-width: 100vw;
 	text-align: center;
 	position: fixed;
 }
 
 header ul {
-	position: absolute;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
 	padding: 0;
-	width: 100vw;
+	min-width: 100vw;
+	margin: auto;
 	list-style-type: none;
 	z-index: 0;
+	text-align: center;
 }
 
 header li {
+	position: relative;
 	background-color: rgb(142, 38, 17);
-	border: 2px solid white;
-	padding: 0em 1em;
-	width: 20%;
-	height: 10% vh;
+	border: 0.2vw solid white;
+	padding: 0em 0em;
+	width: 24vw;
+	height: 8vh;
 	float: left;
 	color: white;
 	font-size: 250%;
-	margin: 1px;
-	margin-left: 5px;
+	margin-left: 0.5vw;
 	font-family: ELEGANT TYPEWRITER;
+	text-align: center;
 }
 
 header li:hover{
@@ -40,8 +49,8 @@ header li a {
 }
 
 header ul ul {
-	width: 20%;
-	position: absolute;
+	width: 24vw;
+	position: relative;
 	display: block;
 	z-index: -1;
 	display: none;
@@ -50,18 +59,18 @@ header ul ul {
 header ul ul li {
 	display: block;
 	overflow: hidden;
+	position: relative;
 	background-color: rgb(142, 38, 17);
-	border: 2px solid white;
-	left: -11%;
-	padding: 0em 1em;
-	width: 20vw;
-	height: 5vh;
+	border: 0.2vw solid white;
+	padding: 0em 0em;
+	width: 24vw;
+	height: 8vh;
+	float: none;
 	color: white;
 	font-size: 100%;
-	margin: 0px;
 	font-family: ELEGANT TYPEWRITER;
-	float: none;
-	position: relative;
+	text-align: center;
+	left: -0.65%;
 }
 
 header ul li:hover > ul {

@@ -1,6 +1,6 @@
 /*keep html at full page*/
 html {
-  position:relative; 
+  position: relative; 
   min-height: 100%;
 }
 
@@ -23,6 +23,7 @@ footer {
 	text-align: center;
 	color: white;
 	font-family: ELEGANT TYPEWRITER;
-	font-size: 125%;
+	margin: auto;
+	font-size: 100%;
 	border-top: 2px solid white;
 }
